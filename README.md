@@ -6,7 +6,7 @@ The goal of these exercises was to work with immutable binary trees and implemen
 
 ## What's Inside
 
-There are two main exercises here:
+There are three main exercises here:
 
 ### 1. String-based Binary Trees (`src_with_string`)
 An immutable binary tree where each node holds a `String`.
@@ -17,6 +17,10 @@ An immutable binary tree where each node holds a `String`.
 An immutable binary tree where each node holds an `int`.
 * **`Increment` Visitor**: Returns a new tree where every integer label has been incremented by 1.
 * **`LessThan` Visitor**: Returns `true` only if *all* the integer labels in the tree are strictly less than a given target value.
+
+### 3. Boolean Formulas (`boolean_formulas`)
+An immutable Abstract Syntax Tree (AST) representing boolean formulas.
+* **`Eval` Visitor**: Traverses the formula tree and evaluates it recursively according to standard boolean logic (handling boolean literals, logical NOT, and logical implication).
 
 ## How to run
 You can compile and run the tests for each exercise directly from the terminal. 
@@ -34,4 +38,12 @@ cd src_with_int
 javac *.java
 java -ea Main
 ```
+
+For the Boolean Formulas:
+```bash
+cd boolean_formulas
+javac *.java
+java -ea Main
+```
+
 *(The `-ea` flag is used to enable assertions so the tests run correctly).*
