@@ -1,3 +1,5 @@
+package src_with_int;
+
 public class EmptyTree implements BinTree {
     
     public EmptyTree() {

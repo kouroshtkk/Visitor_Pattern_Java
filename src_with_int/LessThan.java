@@ -1,3 +1,5 @@
+package src_with_int;
+
 public class LessThan implements Visitor<Boolean> {
 
     private final int lessThanValue;

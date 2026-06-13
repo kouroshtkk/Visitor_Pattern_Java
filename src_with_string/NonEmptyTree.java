@@ -1,3 +1,5 @@
+package src_with_string;
+
 public class NonEmptyTree implements BinTree {
     private final String label;
     private final BinTree left;

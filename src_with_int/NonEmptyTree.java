@@ -1,3 +1,7 @@
+package src_with_int;
+
+import java.util.Objects;
+
 public class NonEmptyTree implements BinTree {
     private final int label;
     private final BinTree left;
@@ -5,8 +9,8 @@ public class NonEmptyTree implements BinTree {
 
     public NonEmptyTree(int label, BinTree left, BinTree right) {
         this.label = label;
-        this.left = left;
-        this.right = right;
+        this.left = Objects.requireNonNull(left);
+        this.right = Objects.requireNonNull(right);
     }
 
     @Override

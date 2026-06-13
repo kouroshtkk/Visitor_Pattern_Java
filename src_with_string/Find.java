@@ -1,3 +1,5 @@
+package src_with_string;
+
 public class Find implements Visitor<Boolean> {
 
     private final String elem;

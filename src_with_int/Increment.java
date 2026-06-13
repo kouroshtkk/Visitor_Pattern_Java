@@ -1,3 +1,5 @@
+package src_with_int;
+
 public class Increment implements Visitor<BinTree> {
 
     // (a) definire il metodo BinTree visitEmpty() della classe Increment;

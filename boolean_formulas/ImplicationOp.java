@@ -1,3 +1,5 @@
+package boolean_formulas;
+
 import java.util.Objects;
 
 // operatore di implicazione

@@ -1,3 +1,5 @@
+package boolean_formulas;
+
 public class Main {
     public static void main(String[] args) {
         var trueLit = new BoolLiteral(true);

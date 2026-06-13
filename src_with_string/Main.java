@@ -1,3 +1,5 @@
+package src_with_string;
+
 public class Main {
     public static void main(String[] args) {
         var emptyT = new EmptyTree();

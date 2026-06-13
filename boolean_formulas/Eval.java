@@ -1,3 +1,5 @@
+package boolean_formulas;
+
 public class Eval implements Visitor<Boolean> { 
 
     @Override

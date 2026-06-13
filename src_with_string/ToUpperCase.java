@@ -1,3 +1,5 @@
+package src_with_string;
+
 public class ToUpperCase implements Visitor<BinTree> {
 
     // (a) definire il metodo BinTree visitEmpty() della classe ToUpperCase

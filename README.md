@@ -23,27 +23,24 @@ An immutable Abstract Syntax Tree (AST) representing boolean formulas.
 * **`Eval` Visitor**: Traverses the formula tree and evaluates it recursively according to standard boolean logic (handling boolean literals, logical NOT, and logical implication).
 
 ## How to run
-You can compile and run the tests for each exercise directly from the terminal. 
+You can compile and run the tests for each exercise directly from the terminal at the root of the project (`Visitor_Pattern_Java`).
 
 For the String trees:
 ```bash
-cd src_with_string
-javac *.java
-java -ea Main
+javac src_with_string/*.java
+java -ea src_with_string.Main
 ```
 
 For the Integer trees:
 ```bash
-cd src_with_int
-javac *.java
-java -ea Main
+javac src_with_int/*.java
+java -ea src_with_int.Main
 ```
 
 For the Boolean Formulas:
 ```bash
-cd boolean_formulas
-javac *.java
-java -ea Main
+javac boolean_formulas/*.java
+java -ea boolean_formulas.Main
 ```
 
 *(The `-ea` flag is used to enable assertions so the tests run correctly).*

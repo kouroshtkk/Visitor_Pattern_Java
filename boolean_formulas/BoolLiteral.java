@@ -1,3 +1,5 @@
+package boolean_formulas;
+
 // costanti booleane
 public class BoolLiteral implements FormulaAST { 
     private final boolean value;
