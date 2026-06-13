@@ -21,8 +21,8 @@ public class Main {
         assert testLess1 && !testLess2 : "Test LessThan fallito!";
         System.out.println("Test LessThan passato con successo!");
 
-        // Test InOrder (commentato fino al completamento)
-        // assert t3.accept(new InOrder()).toString().equals("[1, 2, 3, 4]") : "Test InOrder fallito!";
-        // System.out.println("Test InOrder passato con successo!");
+        // Test InOrder
+        assert t3.accept(new InOrder()).toString().equals("[1, 2, 3, 4]") : "Test InOrder fallito!";
+        System.out.println("Test InOrder passato con successo!");
     }
 }
