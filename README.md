@@ -22,8 +22,12 @@ An immutable binary tree where each node holds an `int`.
 An immutable Abstract Syntax Tree (AST) representing boolean formulas.
 * **`Eval` Visitor**: Traverses the formula tree and evaluates it recursively according to standard boolean logic (handling boolean literals, logical NOT, and logical implication).
 
+### 4. Recursive Lists (`list_exp`)
+An implementation of a recursive list structure using the Visitor pattern to perform operations on the list.
+* **`Length` Visitor**: Calculates the length of the recursive list by traversing the `ListCons` and `EmptyList` nodes.
+
 ## How to run
-You can compile and run the tests for each exercise directly from the terminal at the root of the project (`Visitor_Pattern_Java`).
+Compile and run the tests for each exercise directly from the terminal at the root of the project (`Visitor_Pattern_Java`).
 
 For the String trees:
 ```bash
@@ -41,6 +45,12 @@ For the Boolean Formulas:
 ```bash
 javac boolean_formulas/*.java
 java -ea boolean_formulas.Main
+```
+
+For the Recursive Lists:
+```bash
+javac list_exp/*.java
+java -ea list_exp.Main
 ```
 
 *(The `-ea` flag is used to enable assertions so the tests run correctly).*
