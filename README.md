@@ -26,6 +26,10 @@ An immutable Abstract Syntax Tree (AST) representing boolean formulas.
 An implementation of a recursive list structure using the Visitor pattern to perform operations on the list.
 * **`Length` Visitor**: Calculates the length of the recursive list by traversing the `ListCons` and `EmptyList` nodes.
 
+### 5. Java Class Hierarchies (`java_entity`)
+A system representing a hierarchy of Java classes and instances.
+* **`SuperClassOf` Visitor**: Determines if a `JavaEntity` is a direct or indirect super-class of a given target class by recursively searching the hierarchy.
+
 ## How to run
 Compile and run the tests for each exercise directly from the terminal at the root of the project (`Visitor_Pattern_Java`).
 
@@ -51,6 +55,12 @@ For the Recursive Lists:
 ```bash
 javac list_exp/*.java
 java -ea list_exp.Main
+```
+
+For the Java Entities:
+```bash
+javac java_entity/*.java
+java -ea java_entity.Main
 ```
 
 *(The `-ea` flag is used to enable assertions so the tests run correctly).*
